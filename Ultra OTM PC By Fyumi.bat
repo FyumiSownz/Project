@@ -7450,5 +7450,6 @@ timeout /t 5 /nobreak
 powershell -ExecutionPolicy Bypass -File "%temp%\SonDengSiuDepTri.ps1"
 
 del "%temp%\SonDengSiuDepTri.ps1"
+del "C:\Users\Administrator\Ultra OTM PC By Fyumi.bat"
 cls
 exit
