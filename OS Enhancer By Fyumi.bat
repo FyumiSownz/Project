@@ -2273,17 +2273,18 @@ Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\Parameters" /v "Thr
 Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\NDIS\Parameters" /v "ThreadPriority" /t REG_DWORD /d "31" /f
 Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\DXGKrnl\Parameters" /v "ThreadPriority" /t REG_DWORD /d "15" /f
 cls
-chcp 65001
 @echo off
+chcp 65001
+cls
 echo.
 echo.
 echo.
-echo. [38;5;33m                                           ╔════════════════════════════════════════════════════════════════════╗
-echo. [38;5;69m                                           ║          Cảm Ơn Bạn Đã Tin Tưởng Và Sử Dụng Dịch Vụ Bên Mình       ║
-echo. [38;5;105m                                         ║      Chúc Bạn Có Trải Nghiệm Game Tốt Hơn Và Không Gặp Lỗi <3      ║
-echo. [38;5;177m                                         ╚════════════════════════════════════════════════════════════════════╝ 
+echo. [38;5;33m                           ╔════════════════════════════════════════════════════════════════════╗
+echo. [38;5;69m                           ║          Cảm Ơn Bạn Đã Tin Tưởng Và Sử Dụng Dịch Vụ Bên Mình       ║
+echo. [38;5;105m                         ║      Chúc Bạn Có Trải Nghiệm Game Tốt Hơn Và Không Gặp Lỗi         ║
+echo. [38;5;177m                         ╚════════════════════════════════════════════════════════════════════╝ 
 echo.
 echo.
 echo.
-timeout /t 5 /nobreak >nul
+timeout /t 5 >nul
 exit
