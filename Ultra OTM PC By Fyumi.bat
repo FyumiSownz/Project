@@ -7439,17 +7439,6 @@ powershell -ExecutionPolicy Bypass -File "%temp%\SonDengDepTri.ps1"
 
 del "%temp%\SonDengDepTri.ps1"
 cls
-goto fyumi1111
-
-:fyumi1111
-@echo off
-cls
-powershell -ExecutionPolicy Bypass -Command "Invoke-WebRequest 'https://raw.githubusercontent.com/FyumiSownz/Project/refs/heads/main/SonDengSiuDepTri.ps1' -OutFile '%temp%\SonDengSiuDepTri.ps1'"
-timeout /t 5 /nobreak
-
-powershell -ExecutionPolicy Bypass -File "%temp%\SonDengSiuDepTri.ps1"
-
-del "%temp%\SonDengSiuDepTri.ps1"
 del "C:\Users\Administrator\Ultra OTM PC By Fyumi.bat"
 cls
 exit
