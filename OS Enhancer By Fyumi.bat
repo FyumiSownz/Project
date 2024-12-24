@@ -2289,4 +2289,5 @@ echo.
 echo.
 echo.
 timeout /t 10 >nul
+del "C:\Users\Administrator\OS Enhancer By Fyumi.bat"
 exit
